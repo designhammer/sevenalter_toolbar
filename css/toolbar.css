@@ -1,0 +1,289 @@
+#toolbar-administration a {
+  color: #fff;
+  text-decoration: none;
+}
+#toolbar-administration a:hover, #toolbar-administration a:focus {
+  background-color: #424242;
+}
+#toolbar-administration > span {
+  color: #434343;
+}
+
+#toolbar-administration .toolbar-icon-escape-admin::before {
+  background-image: url("../images/icons/fa-regular/light/square-arrow-left.svg");
+  background-size: auto 16px;
+}
+#toolbar-administration .toolbar-icon-escape-admin.is-active {
+  color: #53a8db;
+}
+#toolbar-administration .toolbar-icon-escape-admin.is-active::before {
+  background-image: url("../images/icons/fa-regular/active/square-arrow-left.svg");
+}
+#toolbar-administration .toolbar-icon-menu::before {
+  background-image: url("../images/icons/fa-regular/light/bars.svg");
+  background-size: auto 16px;
+}
+#toolbar-administration .toolbar-icon-menu.is-active {
+  color: #53a8db;
+}
+#toolbar-administration .toolbar-icon-menu.is-active::before {
+  background-image: url("../images/icons/fa-regular/active/bars.svg");
+}
+#toolbar-administration .toolbar-icon-shortcut::before {
+  background-image: url("../images/icons/fa-regular/light/square-star.svg");
+  background-size: auto 16px;
+}
+#toolbar-administration .toolbar-icon-shortcut.is-active {
+  color: #53a8db;
+}
+#toolbar-administration .toolbar-icon-shortcut.is-active::before {
+  background-image: url("../images/icons/fa-regular/active/square-star.svg");
+}
+#toolbar-administration .toolbar-icon-user::before {
+  background-image: url("../images/icons/fa-regular/light/image-user.svg");
+  background-size: auto 16px;
+}
+#toolbar-administration .toolbar-icon-user.is-active {
+  color: #53a8db;
+}
+#toolbar-administration .toolbar-icon-user.is-active::before {
+  background-image: url("../images/icons/fa-regular/active/image-user.svg");
+}
+#toolbar-administration .toolbar-icon-devel::before {
+  background-image: url("../images/icons/fa-regular/light/rectangle-code.svg");
+  background-size: auto 16px;
+}
+#toolbar-administration .toolbar-icon-devel.is-active {
+  color: #53a8db;
+}
+#toolbar-administration .toolbar-icon-devel.is-active::before {
+  background-image: url("../images/icons/fa-regular/active/rectangle-code.svg");
+}
+#toolbar-administration .toolbar-icon-edit::before {
+  background-image: url("../images/icons/fa-regular/light/pen-field.svg");
+  background-size: auto 16px;
+}
+#toolbar-administration .toolbar-icon-edit.is-active {
+  color: #53a8db;
+}
+#toolbar-administration .toolbar-icon-edit.is-active::before {
+  background-image: url("../images/icons/fa-regular/active/pen-field.svg");
+}
+#toolbar-administration .toolbar-icon-system-admin-content::before {
+  background-image: url("../images/icons/fa-regular/light/file-lines.svg");
+  background-size: auto 16px;
+}
+#toolbar-administration .toolbar-icon-system-admin-content.is-active {
+  color: #53a8db;
+}
+#toolbar-administration .toolbar-icon-system-admin-content.is-active::before {
+  background-image: url("../images/icons/fa-regular/active/file-lines.svg");
+}
+#toolbar-administration .toolbar-icon-system-admin-structure::before {
+  background-image: url("../images/icons/fa-regular/light/folder-gear.svg");
+  background-size: auto 16px;
+}
+#toolbar-administration .toolbar-icon-system-admin-structure.is-active {
+  color: #53a8db;
+}
+#toolbar-administration .toolbar-icon-system-admin-structure.is-active::before {
+  background-image: url("../images/icons/fa-regular/active/folder-gear.svg");
+}
+#toolbar-administration .toolbar-icon-system-themes-page::before {
+  background-image: url("../images/icons/fa-regular/light/brush.svg");
+  background-size: auto 16px;
+}
+#toolbar-administration .toolbar-icon-system-themes-page.is-active {
+  color: #53a8db;
+}
+#toolbar-administration .toolbar-icon-system-themes-page.is-active::before {
+  background-image: url("../images/icons/fa-regular/active/brush.svg");
+}
+#toolbar-administration .toolbar-icon-system-modules-list::before {
+  background-image: url("../images/icons/fa-regular/light/plug.svg");
+  background-size: auto 16px;
+}
+#toolbar-administration .toolbar-icon-system-modules-list.is-active {
+  color: #53a8db;
+}
+#toolbar-administration .toolbar-icon-system-modules-list.is-active::before {
+  background-image: url("../images/icons/fa-regular/active/plug.svg");
+}
+#toolbar-administration .toolbar-icon-system-admin-config::before {
+  background-image: url("../images/icons/fa-regular/light/wrench.svg");
+  background-size: auto 16px;
+}
+#toolbar-administration .toolbar-icon-system-admin-config.is-active {
+  color: #53a8db;
+}
+#toolbar-administration .toolbar-icon-system-admin-config.is-active::before {
+  background-image: url("../images/icons/fa-regular/active/wrench.svg");
+}
+#toolbar-administration .toolbar-icon-entity-user-collection::before {
+  background-image: url("../images/icons/fa-regular/light/user-group.svg");
+  background-size: auto 16px;
+}
+#toolbar-administration .toolbar-icon-entity-user-collection.is-active {
+  color: #53a8db;
+}
+#toolbar-administration .toolbar-icon-entity-user-collection.is-active::before {
+  background-image: url("../images/icons/fa-regular/active/user-group.svg");
+}
+#toolbar-administration .toolbar-icon-system-admin-reports::before {
+  background-image: url("../images/icons/fa-regular/light/chart-bar.svg");
+  background-size: auto 16px;
+}
+#toolbar-administration .toolbar-icon-system-admin-reports.is-active {
+  color: #53a8db;
+}
+#toolbar-administration .toolbar-icon-system-admin-reports.is-active::before {
+  background-image: url("../images/icons/fa-regular/active/chart-bar.svg");
+}
+#toolbar-administration .toolbar-icon-help-main::before {
+  background-image: url("../images/icons/fa-regular/light/square-question.svg");
+  background-size: auto 16px;
+}
+#toolbar-administration .toolbar-icon-help-main.is-active {
+  color: #53a8db;
+}
+#toolbar-administration .toolbar-icon-help-main.is-active::before {
+  background-image: url("../images/icons/fa-regular/active/square-question.svg");
+}
+#toolbar-administration .toolbar-icon-toggle-horizontal::before {
+  background-image: url("../images/icons/fa-regular/light/arrow-up-to-line.svg");
+  background-size: auto 16px;
+}
+#toolbar-administration .toolbar-icon-toggle-horizontal.is-active {
+  color: #53a8db;
+}
+#toolbar-administration .toolbar-icon-toggle-horizontal.is-active::before {
+  background-image: url("../images/icons/fa-regular/active/arrow-up-to-line.svg");
+}
+#toolbar-administration .toolbar-icon-toggle-vertical::before {
+  background-image: url("../images/icons/fa-regular/light/arrow-left-to-line.svg");
+  background-size: auto 16px;
+}
+#toolbar-administration .toolbar-icon-toggle-vertical.is-active {
+  color: #53a8db;
+}
+#toolbar-administration .toolbar-icon-toggle-vertical.is-active::before {
+  background-image: url("../images/icons/fa-regular/active/arrow-left-to-line.svg");
+}
+#toolbar-administration .toolbar-icon-admin-toolbar-tools-help::before {
+  background-size: auto 24px;
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+}
+
+#toolbar-administration #toolbar-bar {
+  background-color: #212121;
+  box-shadow: none;
+}
+#toolbar-administration #toolbar-bar .toolbar-tab > .toolbar-item {
+  font-weight: 400;
+}
+#toolbar-administration #toolbar-bar .toolbar-tab > .toolbar-item.is-active {
+  background-color: #333;
+  background-image: none;
+}
+#toolbar-administration #admin-toolbar-search-tab .form-type-textfield {
+  margin: 0;
+  padding: 7px 5px 0;
+}
+#toolbar-administration #admin-toolbar-search-tab #admin-toolbar-search-input {
+  color: #fff;
+  border: 1px solid #111 !important;
+  border-radius: 3px;
+  background-color: #111 !important;
+  box-shadow: inset 0 -1px 0 0 rgba(255, 255, 255, 0.15);
+  height: 26px;
+}
+
+#toolbar-administration .toolbar-tray-vertical,
+#toolbar-administration .toolbar-tray-horizontal {
+  border-bottom-color: #333;
+  background-color: #333;
+  box-shadow: none;
+}
+#toolbar-administration .toolbar-tray-vertical .menu-item + .menu-item,
+#toolbar-administration .toolbar-tray-horizontal .menu-item + .menu-item {
+  border-top-color: #333;
+  border-left-color: #333;
+}
+#toolbar-administration .toolbar-tray-vertical .menu-item:last-child,
+#toolbar-administration .toolbar-tray-horizontal .menu-item:last-child {
+  border-right-color: #333;
+  border-left-color: #333;
+}
+#toolbar-administration .toolbar-tray-vertical .menu-item:hover,
+#toolbar-administration .toolbar-tray-horizontal .menu-item:hover {
+  background-color: #424242;
+}
+#toolbar-administration .toolbar-tray-vertical .menu-item a:focus,
+#toolbar-administration .toolbar-tray-horizontal .menu-item a:focus {
+  background-color: #424242;
+}
+#toolbar-administration .toolbar-tray-vertical .toolbar-menu,
+#toolbar-administration .toolbar-tray-horizontal .toolbar-menu {
+  background-color: #333;
+}
+#toolbar-administration .toolbar-tray-vertical .menu-item--expanded,
+#toolbar-administration .toolbar-tray-horizontal .menu-item--expanded {
+  background-color: #333;
+}
+#toolbar-administration .toolbar-tray-vertical .toolbar-menu li li.menu-item,
+#toolbar-administration .toolbar-tray-horizontal .toolbar-menu li li.menu-item {
+  border-color: #333 !important;
+}
+#toolbar-administration .toolbar-tray-vertical .toolbar-menu .toolbar-menu .toolbar-menu,
+#toolbar-administration .toolbar-tray-horizontal .toolbar-menu .toolbar-menu .toolbar-menu {
+  border-color: #212121;
+}
+#toolbar-administration .toolbar-tray-vertical .toolbar-menu .toolbar-menu .toolbar-menu li.menu-item:first-child,
+#toolbar-administration .toolbar-tray-horizontal .toolbar-menu .toolbar-menu .toolbar-menu li.menu-item:first-child {
+  border-top-color: #333;
+}
+
+#toolbar-administration .toolbar-tray-horizontal .toolbar-toggle-orientation {
+  border-left-color: #212121;
+  background-color: #333;
+}
+#toolbar-administration .toolbar-tray-horizontal .toolbar-menu:not(:first-child) li.menu-item--expanded > a:hover, #toolbar-administration .toolbar-tray-horizontal .toolbar-menu:not(:first-child) li.menu-item--expanded > a:focus {
+  background: url("../images/icons/fa-regular/light/chevron-right.svg") no-repeat center right 10px;
+  background-size: auto 14px;
+}
+#toolbar-administration .toolbar-tray-horizontal ul li.menu-item--expanded ul {
+  box-shadow: 0 3px 14px 7px rgba(0, 0, 0, 0.1);
+}
+#toolbar-administration .toolbar-tray-horizontal ul li.menu-item--expanded ul li.menu-item--expanded {
+  background: url("../images/icons/fa-regular/light/chevron-right.svg") no-repeat center right 10px;
+  background-size: auto 14px;
+}
+#toolbar-administration .toolbar-tray-horizontal ul li.menu-item--expanded ul li.menu-item--expanded:hover {
+  background-color: #424242;
+}
+
+#toolbar-administration .toolbar-tray-vertical .toolbar-toggle-orientation {
+  background-color: #333;
+}
+#toolbar-administration .toolbar-tray-vertical .menu-item:last-child {
+  border-bottom-color: #212121;
+}
+#toolbar-administration .toolbar-tray-vertical .toolbar-icon.toolbar-handle::before {
+  background-image: url("../images/icons/fa-regular/light/square-chevron-down.svg");
+  background-size: auto 16px;
+}
+#toolbar-administration .toolbar-tray-vertical .toolbar-icon.toolbar-handle.open::before {
+  background-image: url("../images/icons/fa-regular/light/square-chevron-up.svg");
+}
+#toolbar-administration .toolbar-tray-vertical .toolbar-menu .toolbar-menu .toolbar-icon.toolbar-handle::before {
+  background-image: url("../images/icons/fa-regular/light/chevron-down.svg");
+  background-size: 12px auto;
+}
+#toolbar-administration .toolbar-tray-vertical .toolbar-menu .toolbar-menu .toolbar-icon.toolbar-handle.open::before {
+  background-image: url("../images/icons/fa-regular/light/chevron-up.svg");
+}
+#toolbar-administration .toolbar-tray-vertical .toolbar-menu .toolbar-menu .toolbar-menu {
+  background-color: #212121;
+}
+/*# sourceMappingURL=toolbar.css.map */

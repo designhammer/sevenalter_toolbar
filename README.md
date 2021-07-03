@@ -1,2 +1,3 @@
-# sevenalter_toolbar
-Sevenalter Toolbar is a theme for Drupal admin_menu
+# Seven Alter Toolbar - Module
+
+Seven Alter Toolbar is a theme for Drupal admin_toolbar.
