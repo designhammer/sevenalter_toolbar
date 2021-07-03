@@ -1,7 +1,7 @@
 {
     "name": "frankyonnetti/sevenalter_toolbar",
-    "type": "drupal-module",
     "description": "Seven Alter Toolbar is a theme for Drupal admin_toolbar.",
+    "type": "drupal-module",
     "license": "MIT",
     "homepage": "https://github.com/frankyonnetti/sevenalter_toolbar",
     "minimum-stability": "dev",
