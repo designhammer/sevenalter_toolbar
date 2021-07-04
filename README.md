@@ -2,6 +2,8 @@
 
 Seven Alter Toolbar is a theme for Drupal admin_toolbar.
 
+![Seven Alter Toolbar](images/sevealter_toolbar.png)
+
 ## Add to a Drupal site
 
 https://www.drupal.org/docs/develop/using-composer/managing-dependencies-for-a-custom-project
