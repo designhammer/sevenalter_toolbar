@@ -1,8 +1,8 @@
 # Seven Alter Toolbar - Module
 
-Seven Alter Toolbar is a theme for Drupal admin_toolbar.
+**Seven Alter Toolbar** is a theme created for the Drupal [Admin Toolbar](https://www.drupal.org/project/admin_toolbar) module. It works best with the [Seven Alter admin theme](https://github.com/frankyonnetti/sevenalter).
 
-![Seven Alter Toolbar](images/sevealter_toolbar.png)
+![Seven Alter Toolbar](images/sevenalter_toolbar.png)
 
 ## Add to a Drupal site
 
