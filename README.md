@@ -6,7 +6,7 @@
 
 ## Add to a Drupal site
 
-https://www.drupal.org/docs/develop/using-composer/managing-dependencies-for-a-custom-project
+[Drupal.org doc: Managing dependencies for a custom project](https://www.drupal.org/docs/develop/using-composer/managing-dependencies-for-a-custom-project)
 
 Add to composer.json (the first part is already there).
 
