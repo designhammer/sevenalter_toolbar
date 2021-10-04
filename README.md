@@ -1,6 +1,6 @@
 # Seven Alter Toolbar - Module
 
-**Seven Alter Toolbar** is a theme created for the Drupal [Admin Toolbar](https://www.drupal.org/project/admin_toolbar) module. It works best with the [Seven Alter admin theme](https://github.com/frankyonnetti/sevenalter).
+**Seven Alter Toolbar** is a theme created for the Drupal [Admin Toolbar](https://www.drupal.org/project/admin_toolbar) module. It works best with the [Seven Alter admin theme](https://github.com/designhammer/sevenalter).
 
 <img src="screenshot.png" width="335" height="250">
 
@@ -17,10 +17,10 @@ Add to composer.json (the first part is already there).
         },
         {
             "type": "git",
-            "url": "https://github.com/frankyonnetti/sevenalter_toolbar.git"
+            "url": "https://github.com/designhammer/sevenalter_toolbar.git"
         }
     ],
 
 Require the modules.
 
-    composer require frankyonnetti/sevenalter_toolbar
+    composer require designhammer/sevenalter_toolbar
