@@ -1,8 +1,10 @@
 name: 'Seven Alter Admin Toolbar'
 description: 'Admin toolbar module for Seven Alter admin theme'
-core: 8.x
-core_version_requirement: ^8 || ^9
 package: 'Administration'
 type: module
+core: 8.x
+core_version_requirement: ^8 || ^9
 dependencies:
   - admin_toolbar:admin_toolbar
+
+version: '0.2.2'
