@@ -1,3 +1,13 @@
+.toolbar,
+.toolbar ul {
+  font-family: "Source Sans Pro", "Lucida Grande", Verdana, sans-serif !important;
+}
+
+.toolbar-tray a,
+.toolbar-tray a:visited {
+  color: #565656 !important;
+}
+
 .toolbar-tray-horizontal .menu-item a:focus,
 [dir="rtl"] .toolbar-tray-horizontal .menu-item a:focus,
 .toolbar-tray-horizontal .menu-item--expanded,
