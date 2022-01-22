@@ -1,6 +1,7 @@
 .toolbar,
 .toolbar ul {
   font-family: "Source Sans Pro", "Lucida Grande", Verdana, sans-serif !important;
+  font-size: 13px !important;
 }
 
 .toolbar-tray a,
@@ -51,15 +52,76 @@
   box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.075) !important;
 }
 
-/* Disable override in favor of Environment Indicator module.
- *
-.toolbar .toolbar-bar {
-  background-color: #252525 !important;
-}
-*/
-
 .toolbar .toolbar-icon::before {
   width: 18px !important;
+}
+
+.toolbar .toolbar-icon-escape-admin::before {
+  background-image: url("../img/chevron-disc-left.svg") !important;
+  opacity: 0.65;
+}
+
+.toolbar-bar .toolbar-icon-menu::before {
+  background-image: url("../img/hamburger.svg") !important;
+  opacity: 0.65;
+}
+.toolbar-bar .toolbar-icon-menu:active::before,
+.toolbar-bar .toolbar-icon-menu.is-active::before {
+  opacity: 1;
+}
+
+.toolbar-bar .toolbar-icon-shortcut::before {
+  background-image: url("../img/star.svg") !important;
+  opacity: 0.65;
+}
+.toolbar-bar .toolbar-icon-shortcut:active::before,
+.toolbar-bar .toolbar-icon-shortcut.is-active::before {
+  opacity: 1;
+}
+
+.toolbar-bar .toolbar-icon-user::before {
+  background-image: url("../img/person.svg") !important;
+  opacity: 0.65;
+}
+.toolbar-bar .toolbar-icon-user:active::before,
+.toolbar-bar .toolbar-icon-user.is-active::before {
+  opacity: 1;
+}
+
+.toolbar-bar .toolbar-icon-environment::before {
+  background-image: url("../img/env.svg");
+  opacity: 0.65;
+}
+.toolbar-bar .toolbar-icon-environment:active::before,
+.toolbar-bar .toolbar-icon-environment.is-active::before {
+  opacity: 1;
+}
+
+.toolbar .toolbar-bar .toolbar-icon-devel::before {
+  background-image: url("../img/cog.svg");
+  opacity: 0.65;
+}
+.toolbar .toolbar-bar .toolbar-icon-devel:active::before,
+.toolbar .toolbar-bar .toolbar-icon-devel.is-active::before {
+  opacity: 1;
+}
+
+.toolbar-bar .toolbar-icon-edit::before {
+  background-image: url("../img/pencil.svg") !important;
+  opacity: 0.65;
+}
+.toolbar-bar .toolbar-icon-edit:active::before,
+.toolbar-bar .toolbar-icon-edit.is-active::before {
+  opacity: 1;
+}
+
+.toolbar-bar .toolbar-icon-help::before {
+  background-image: url("../img/questionmark-disc.svg") !important;
+  opacity: 0.65;
+}
+.toolbar-bar .toolbar-icon-help:active::before,
+.toolbar-bar .toolbar-icon-help.is-active::before {
+  opacity: 1;
 }
 
 .toolbar .toolbar-bar .toolbar-tab > .toolbar-item.is-active {
@@ -68,7 +130,7 @@
 
 #admin-toolbar-search-input {
   color: #fff !important;
-  border: 1px solid rgba(0, 0, 0, 0.2) !important;
+  border: 1px solid rgba(0, 0, 0, 0.1) !important;
   border-radius: 3px;
   background-color: rgba(0, 0, 0, 0.1) !important;
   box-shadow: 0 1px 0 0 rgba(256, 256, 256, 0.075);
@@ -76,9 +138,6 @@
   min-height: 26px;
 }
 
-#admin-toolbar-search-input::-webkit-input-placeholder,
-#admin-toolbar-search-input::-moz-placeholder,
-#admin-toolbar-search-input:-moz-placeholder,
 #admin-toolbar-search-input::placeholder {
   color: rgba(256, 256, 256, 0.5);
 }
